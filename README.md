@@ -9,9 +9,15 @@ The MRI simulator includes three components:
 
 
 ## Tools
+
 Contains some scripts to write some MRI test sequences, Generate B0 distortion field components, create voxelized geometries.
 
+## Test Object
+
+Digital phantom for MRI simulation. Test object with vials.
+
 ## TEST
+
 Contains a bunch of generated sequences and the corresponding DICOM files.
 
 ## SLZ_to_hdf5_MRI
@@ -21,6 +27,9 @@ Never managed to compile with the FORTRAN H5 libraries.
 
 Maybe one day this will be python too.
 
+## Acknowledgment
+
+This research was developed in the framework of Project 20NRM05 IMET-MRI, which has received funding from the European Metrology Programme for Innovation and Research (EMPIR), co-financed by the participating states, and from the European Union’s Horizon 2020 Programme.
 
 ### To do list.
 
