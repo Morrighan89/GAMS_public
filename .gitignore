@@ -274,6 +274,6 @@ Data/
 
 # my folders
 
-
+/test
 *.pdf
 *.svg
