@@ -1,3 +1,10 @@
+"""
+Derived from original examples from https://github.com/imr-framework/pypulseq
+---
+
+"""
+
+
 import math
 import warnings
 

@@ -1,10 +1,10 @@
 """
-
-
-
 Spin Echo (SE) acquisition using the `pypulseq` library. This sequence is typically used for T<sub>2</sub> weighted imaging.
 A 2D Fourier transform can be used to reconstruct images from this acquisition. Read more about SE [here](http://mriquestions.com/se-vs-multi-se-vs-fse.html).
 
+SE sequence (template used for quantitative estimate of T2 in Sub-section 4.1 and for the generation of T2-weighted image in Sub-section 4.2 https://dx.doi.org/10.2139/ssrn.4882851)
+
+Derived from original examples from https://github.com/imr-framework/pypulseq
 ---
 
 """
@@ -156,9 +156,7 @@ def write_SE_basic_sequence(TE,TR,NX,NY,dz,flip):
 
     #seq.plot(time_range=(0.0,0.05))
 
-    """ GENERATING `.SEQ` FILE
-    Uncomment the code in the cell below to generate a `.seq` file and download locally.
-    """
+    """ GENERATING `.SEQ` FILE """
 
 
     #seq.plot()

@@ -1,7 +1,5 @@
 """
-
-
----
+Derived from original sequence examples from https://github.com/imr-framework/pypulseq
 
 """
 
@@ -158,9 +156,7 @@ else:
     [print(e) for e in error_report]
 seq.plot(time_range=(TR-0.05, TR+0.2))
 
-""" GENERATING `.SEQ` FILE 
-Uncomment the code in the cell below to generate a `.seq` file and download locally.
-"""
+""" GENERATING `.SEQ` FILE """
 
 
 #seq.plot()
