@@ -4,8 +4,8 @@ A pipeline for the generation of synthetic MRI images, including the design and 
 The MRI simulator includes three components: 
 
 1) the pre-processor, which enables us to input the geometrical, physical, excitation and acquisition parameters;
-2) the solver which is used to solve the Bloch equation and enables us to produce the raw-data signal by means of in-house developed CUDA-Fortran routines;
-3) the post-processor, which enables us to process the generated signal and convert it into a DICOM image, with proper metadata.
+2) the solver which is used to solve the Bloch equation and enables us to produce the raw-data signal by means of in-house developed CUDA-Fortran routines; (to be released)
+3) the post-processor, which enables us to process the generated signal and convert it into a DICOM image, with proper metadata. 
 
 
 ## Tools
