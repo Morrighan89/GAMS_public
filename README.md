@@ -22,10 +22,10 @@ Contains a bunch of generated sequences and the corresponding DICOM files.
 
 ## SLZ_to_hdf5_MRI
 
-C++ program to convert the optional output solution in binary file to a xdmf + h5 file format that can e opened with paraview.
+C++ program to convert the optional output solution in a binary file to an xdmf + h5 file format that can be opened with Paraview.
 Never managed to compile with the FORTRAN H5 libraries.
 
-Maybe one day this will be python too.
+Future revisions will be in python too.
 
 ## Acknowledgment
 
